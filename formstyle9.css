@@ -1,0 +1,40 @@
+@font-face {
+    	font-family: myFirstFont;
+    	src: url("Linden Hill.otf");
+	}
+
+body
+	{
+		margin:0 auto;
+		background-image: url("white.jpg");
+		background-repeat:no-repeat;
+		background-size:100% 1080px;
+		text-align:center;
+	}
+.imgContainer{
+    float:left;
+}
+input[type="text"],input[type="password"]
+	{
+		height: 45px;
+		width: 300px;
+		font-size:20px;
+		margin-bottom:25px;
+		background-color:#fff;
+		border-radius:5px;
+		padding-left:30px;
+	}
+.btn-login
+
+	{
+		padding:15px 25px;
+		color:#fff;
+		border:none;
+		background-color:#2ecc71;
+		border-bottom:4px solid #27ae60;
+		cursor:pointer;
+		boder-bottom:4px solid #27ae60;
+		margin-bottom:20px;
+		float:left;
+	}
+	

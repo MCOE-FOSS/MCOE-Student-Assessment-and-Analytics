@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+@font-face {
+    	font-family: myFirstFont;
+    	src: url("Linden Hill.otf");
+	}
+body{
+	text-align:center;
+	 
+}
+#headerx
+{	
+	background: linear-gradient(to right,rgba(0, 0, 0, 0.0),rgba(83, 52, 109,0.0));
+	height:70px;
+	line-height:2.3;
+	padding:20px;
+	position:fixed;
+	width:100%;
+	z-index:20;
+	position:fixed;
+	
+}
+.headerx img
+	{	
+		width: 50px;
+		height:50px;
+		margin-top:-60px;
+		margin-bottom:40px;
+		
+	}
+
+#banner{
+	background: linear-gradient(to right,#4b6cb7,#182848);
+	background-image:url("white.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 900px;
+	width:100%;
+	height:900px;
+	position:fixed;
+	top:0px;
+	z-index:10;
+	overflow:hidden;
+	text-align:center;
+}
+#banner > {margin-top:250px;}
+
+
+#container2
+	{	
+		
+		background-color:rgba(90,63,55,0.0);
+		
+		border-radius:37px;
+		float:right;
+		text-align:left;
+		margin-right:75px;
+		margin-left:60px;
+		margin-top:129px;
+		font-size:30px;
+	}
+
+
+#content{
+	background: linear-gradient(to right,rgba(120, 2, 6,1.0),rgba(6, 17, 97,1.0));
+	
+	background-repeat:no-repeat;
+	width:100%;
+	position:relative;
+	height:800px;
+	top:900px;
+	z-index:15;
+}
+
+.btn-login
+	{
+		
+		margin-top:200px;
+		padding:15px 85px;
+		color:#fff;
+		border:none;
+		background-color:#2ecc71;
+		border-bottom:4px solid #27ae60;
+		cursor:pointer;
+		margin-bottom:20px;
+		margin-left:50px;
+		
+	}
